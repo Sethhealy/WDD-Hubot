@@ -25,7 +25,7 @@ function bci( msg ) {
 
   // Verify if submission is a string.
   if ( typeof currencyType === "string" ) {
-    // *** Submission IS a string ***
+    // *** Submission is a string ***
 
     // Setup the url for the Coin Desk API.
     url = "http://api.coindesk.com/v1/bpi/currentprice.json";
