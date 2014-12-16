@@ -103,7 +103,7 @@ function bci( msg ) {
     } ); // ...End of HTTP request method
 
   } else {
-    // *** Submission IS NOT a string ***
+    // *** Submission is not a string ***
 
     // Incorrect input type.
     msg.send( 'I did not understand. Please try again.' );
