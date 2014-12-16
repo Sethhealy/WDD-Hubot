@@ -33,7 +33,7 @@ function bci( msg ) {
     // Initiate the request
     request( url, function ( error, response, body ) {
 
-      // Verify if there's a succesfull conection.
+      // Verify if there's a successful conection.
       if ( !error && response.statusCode < 300 ) {
         // *** Connection Successful ***
 
